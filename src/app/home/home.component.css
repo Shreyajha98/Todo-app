@@ -1,0 +1,42 @@
+.container{
+    display: grid;
+    grid-template-columns: 50% auto;
+
+}
+
+.col{
+    padding: .4em 1.3;
+}
+
+.color-dark{
+
+    background: #2885c4}
+
+.color-light{
+    background: lightblue;
+}
+
+input.text{
+    border:0;
+    padding: 1em;
+    width:90%;
+    margin-bottom: 2em;
+}
+
+
+input.btn{
+
+    border:0;
+    padding:1em 3em;
+    display: block;
+    background: lightgreen;
+}
+
+
+.project-container{
+
+    background: mediumslateblue;
+    padding: .5em;
+    font-weight: bold;
+    cursor: pointer;
+}
